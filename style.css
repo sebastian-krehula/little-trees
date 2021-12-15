@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: FreeSans;
+    src: url(/font/FreeSans.ttf);
+}
+
+@font-face {
+    font-family: FreeSansBold;
+    src: url(/font/FreeSansBold.ttf);
+}
+
+@font-face {
+    font-family: FreeSansBoldOblique;
+    src: url(/font/FreeSansBoldOblique.ttf);
+}
+
+@font-face {
+    font-family: FreeSansOblique;
+    src: url(/font/FreeSansOblique.ttf);
+}
+
+@font-face {
+    font-family: FreeSansRandom;
+    src: url(/font/Nimbus\ Sans\ Becker\ PBla\ Regular.otf);
+}
+
+header{
+    background-image: url(/images/thumbnail.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px; 
+	box-shadow: 0 5px 27px rgba(0, 0, 0, 0.6)  ; 
+	-webkit-box-shadow: 0 5px 27px rgba(0, 0, 0, 0.6)  ; 
+	-moz-box-shadow: 0 5px 27px rgba(0, 0, 0, 0.6)  ;
+    position: relative;
+}
+
+#navigacija{
+    font-family: FreeSansBoldOblique;
+    color: #FF5757;
+    display: flex;
+    justify-content: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#podgrupa{
+    display: flex;
+}
+
+#podgrupa h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 90%;
+}
+
+.search-form{
+    border: 2px solid #FF5757;
+    border-radius: 200000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.search-form p{
+    font-size: 70%;
+    margin-left: 5px;
+}
+
+.search-form img{
+    margin-right: 8px;
+    width: 10px;
+    height: auto;
+}
+
+#logo{
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+main{
+    height: 700px;
+    background-image: linear-gradient(#3C4751, #0C0E10);
+}
+
+#levo-desno{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+
+}
+#lijevi-chevron{
+    rotate: -90deg;
+    width: 20px;
+    height: auto;
+}
+
+#desni-chevron{
+    rotate: 90deg;
+    width: 20px;
+    height: auto;
+}
+
+#prve-dve-kocke{
+    display: flex;
+    justify-content: center;
+}
+
+#prve-dve-kocke img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+#druge-dve-kocke{
+    display: flex;
+    justify-content: center;
+}
+
+#druge-dve-kocke img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#linija{
+    display: flex;
+    justify-content: center;
+}
+
+#linija img{
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+}
+
+#filtriranje-text{
+    display: flex;
+    justify-content: center;
+    font-family: FreeSansBoldOblique;
+    color: #E6E6E6;
+    margin-top: 30px;
+}
+
+#filtriranje-kocke{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#filtriranje-kocke .box{
+    width: 130px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+#linije{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2) rotate(-7deg);
+    
+}
+
+#filter-gumb{
+    border: 2px solid #FF5757;
+    border-radius: 200000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: auto;
+}
+
+#filter-text{
+    font-size: 70%;
+    margin-left: 5px;
+    color: #FF5757;
+    font-family: FreeSansBoldOblique;
+}
+
+#filter-ikona{
+    width: 12px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#druga-forma{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#footer-sekcija{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    border-top: 2px solid #FF5757;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer h1{
+    color: #FF5757;
+    font-family: FreeSansBoldOblique;
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+#filter-gumb-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#login-info{
+    border: 2px solid #FF5757;
+    border-radius: 200000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#terms-conditions{
+    display: flex;
+    justify-content: center;
+    color: #FF5757;
+    font-family: FreeSansBoldOblique;
+    font-size: 60%;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 667px) {
+
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        z-index: -1;
+    }
+
+    main{
+        height: 830px;
+    }
+
+    footer{
+        border-top: 2px solid #FF5757;
+        margin-top: 20px;
+        border-radius: 30px;
+        width: 1920px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #linije{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        transform: scale(2.6) rotate(-7deg);
+        
+    }
+
+    header{
+        background-image: url(/images/thumbnail.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px; 
+        box-shadow: 0 5px 27px rgba(0, 0, 0, 0.6)  ; 
+        -webkit-box-shadow: 0 5px 27px rgba(0, 0, 0, 0.6)  ; 
+        -moz-box-shadow: 0 5px 27px rgba(0, 0, 0, 0.6)  ;
+        position: relative;
+    }
+
+    #logo{
+        width: 90px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    #podgrupa h2{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 200%;
+    }
+
+    .search-form{
+        border: 2px solid #FF5757;
+        border-radius: 200000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        height: 20px;
+        margin-left: 160px;
+    }
+
+    #levo-desno{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+    
+    }
+    #lijevi-chevron{
+        rotate: -90deg;
+        width: 40px;
+        height: auto;
+    }
+    
+    #desni-chevron{
+        rotate: 90deg;
+        width: 40px;
+        height: auto;
+    }
+
+    #prve-dve-kocke{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #prve-dve-kocke img{
+        width: 200px;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    #druge-dve-kocke img{
+        width: 200px;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #linija img{
+        width: 250px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    #filtriranje-text{
+        display: flex;
+        justify-content: center;
+        font-family: FreeSansBoldOblique;
+        color: #E6E6E6;
+        margin-top: 30px;
+        font-size: 200%;
+    }
+
+    #filtriranje-kocke .box{
+        width: 220px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        position: relative;
+        z-index: 1;
+    }
+
+    #filter-gumb{
+        border: 2px solid #FF5757;
+        border-radius: 200000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 150px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+
+    #linije{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        transform: scale(1.2) rotate(0deg);
+        
+    }
+
+    #kolumna-kocke{
+        display: flex;
+        justify-content: center;
+    }
+
+    #druge-dve-kocke img{
+        width: 200px;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    #filtriranje-kocke{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+}
