@@ -291,7 +291,7 @@ footer h1{
     }
 
     header{
-        background-image: url(/images/thumbnail.jpg);
+        background-image: url("./images/thumbnail.jpg");
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -311,7 +311,7 @@ footer h1{
 
     #podgrupa h2{
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 10px;     
         font-size: 200%;
     }
 
